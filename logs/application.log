@@ -1,0 +1,21 @@
+2016-09-07 10:58:09,544 [INFO] from play.core.server.NettyServer in pool-4-thread-2 - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+2016-09-07 10:58:22,537 [INFO] from utils.db.TetraoPostgresDriver in ForkJoinPool-1-worker-9 - [36m >>> binding uuid -> java.util.UUID [0m
+2016-09-07 10:58:22,537 [INFO] from utils.db.TetraoPostgresDriver in ForkJoinPool-1-worker-9 - [36m >>> binding text -> java.lang.String [0m
+2016-09-07 10:58:22,537 [INFO] from utils.db.TetraoPostgresDriver in ForkJoinPool-1-worker-9 - [36m >>> binding bool -> Boolean [0m
+2016-09-07 10:58:23,576 [INFO] from com.zaxxer.hikari.HikariDataSource in ForkJoinPool-1-worker-9 - HikariCP pool db is starting.
+2016-09-07 10:58:23,970 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-7 - Slf4jLogger started
+2016-09-07 10:58:23,987 [INFO] from play.api.Play in ForkJoinPool-1-worker-9 - Application started (Dev)
+2016-09-07 10:58:24,606 [INFO] from org.quartz.core.SchedulerSignalerImpl in application-akka.actor.default-dispatcher-7 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-09-07 10:58:24,607 [INFO] from org.quartz.core.QuartzScheduler in application-akka.actor.default-dispatcher-7 - Quartz Scheduler v.2.2.1 created.
+2016-09-07 10:58:24,612 [INFO] from org.quartz.simpl.RAMJobStore in application-akka.actor.default-dispatcher-7 - RAMJobStore initialized.
+2016-09-07 10:58:24,614 [INFO] from org.quartz.core.QuartzScheduler in application-akka.actor.default-dispatcher-7 - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'QuartzScheduler~test1' with instanceId 'test1'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-09-07 10:58:24,615 [INFO] from org.quartz.impl.DirectSchedulerFactory in application-akka.actor.default-dispatcher-7 - Quartz scheduler 'QuartzScheduler~test1
+2016-09-07 10:58:24,615 [INFO] from org.quartz.impl.DirectSchedulerFactory in application-akka.actor.default-dispatcher-7 - Quartz scheduler version: 2.2.1
+2016-09-07 10:58:24,616 [INFO] from org.quartz.core.QuartzScheduler in application-akka.actor.default-dispatcher-7 - Scheduler QuartzScheduler~test1_$_test1 started.
