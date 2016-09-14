@@ -1,22 +1,14 @@
 # Routes
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
-GET     /                           controllers.PublicApplication.index()
 
-GET		/login						controllers.Authentication.prepareLogin()
-POST	/login						controllers.Authentication.login()
-GET		/logout						controllers.Authentication.logout()
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
 
-GET		/account  					controllers.RestrictedApplication.account()
-POST	/account/update 			controllers.RestrictedApplication.updateAccount()
-GET     /account/add    			controllers.RestrictedApplication.newAccount()
-POST	/account/add    			controllers.RestrictedApplication.addAccount()
-GET		/messages  					controllers.RestrictedApplication.messages()
-POST    /messages/add               controllers.RestrictedApplication.addMessage()
-POST    /messages/:id/delete        controllers.RestrictedApplication.deleteMessage(id:Int)
+GET     /start                      controllers.HomeController.start
 
-GET     /assets/*file               controllers.Assets.at(path="/public", file)
-GET     /webjars/*file              controllers.WebJarAssets.at(file)
+POST     /demonuno                     controllers.HomeController.demonuno
 
-#POST     /demo/:dbname/:frequency/:startDate/:cmd/:status                     controllers.DemoController.demo(dbname,frequency,startDate,cmd,status)
-POST 	/demonuno			controllers.DemoController.demonuno
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
